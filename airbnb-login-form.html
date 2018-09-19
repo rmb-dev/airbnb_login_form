@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>airbnb Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="modal">
+		<div class="social-logins">
+			<div class="fb-login">
+				<a href=""><i class="fa fa-facebook"></i> Log in with Facebook</a>
+			</div>
+			<div class="google-login">
+				<a href=""><i class="fa fa-google"></i> Log in with Google</a>
+			</div>
+			<p>or</p>
+		</div>
+
+		<form action="" method="POST" name="loginForm">
+			<input type="email" placeholder="Email Address" required>
+			<input type="password" placeholder="Password" required>
+			<div class="clearfix">
+				<input type="checkbox" id="rememberMe" name="rememberMe">
+				<label for="rememberMe">Remember me</label>
+				<a href="#" class="forgot-password">Forgot password?</a>
+			</div>
+			<input type="submit" value="Log in">
+		</form>
+		<div class="sign-up clearfix">
+			<p>Don't have an account?</p>
+			<a href="#">Sign up</a>
+		</div>
+	</div>
+</body>
+</html>
